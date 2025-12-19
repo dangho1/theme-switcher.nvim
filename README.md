@@ -21,7 +21,7 @@ A Neovim plugin for seamless colorscheme switching with persistence and live pre
 
 ```lua
 {
-  'dangho1/theme-switcher.nvim",
+  "dangho1/theme-switcher.nvim",
   dependencies = { "nvim-telescope/telescope.nvim" },
   config = function()
     require("theme-switcher").setup()
@@ -33,7 +33,7 @@ A Neovim plugin for seamless colorscheme switching with persistence and live pre
 
 ```lua
 use {
-  'dangho1/theme-switcher.nvim",
+  "dangho1/theme-switcher.nvim",
   requires = { "nvim-telescope/telescope.nvim" },
   config = function()
     require("theme-switcher").setup()
